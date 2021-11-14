@@ -25,7 +25,7 @@ public class FileDisplayServlet extends HttpServlet {
     }
     
     public void init() {
-        this.filePath = "D:\\MyJava\\work-space\\BookStoreOnline_SpringMVC\\src\\main\\webapp\\resources\\images";
+        this.filePath = "D:\\MyJava\\work-space\\EAD_SpringMVC\\src\\main\\webapp\\resources\\images";
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -39,8 +39,8 @@ public class Book {
 	private String summaryContent;
     
     @Column(name="price")
+    @Min(value = 10000)
 	@NotNull(message="This field is required.")
-    @Min(value = 1)
 	private Integer price;
     
     @Column(name="author")

@@ -115,7 +115,7 @@ public class BookController {
     
     private String doUpload(@ModelAttribute("book") Book theBook) {
 
-        File uploadRootDir = new File("D:\\MyJava\\work-space\\BookStoreOnline_SpringMVC\\src\\main\\webapp\\resources\\images");
+        File uploadRootDir = new File("D:\\MyJava\\work-space\\EAD_SpringMVC\\src\\main\\webapp\\resources\\images");
 
         // Create directory if it not exists.
         if (!uploadRootDir.exists()) {
